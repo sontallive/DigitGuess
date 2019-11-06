@@ -1,0 +1,81 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Number/ResultShower.gd" type="Script" id=1]
+[ext_resource path="res://Number/GuessResult.tscn" type="PackedScene" id=2]
+
+[node name="ResultShower" type="HBoxContainer"]
+anchor_right = 1.0
+margin_bottom = 226.0
+custom_constants/separation = 0
+script = ExtResource( 1 )
+
+[node name="VBoxContainer1" type="VBoxContainer" parent="."]
+margin_right = 144.0
+margin_bottom = 226.0
+rect_min_size = Vector2( 144, 0 )
+custom_constants/separation = 0
+
+[node name="GuessResult" parent="VBoxContainer1" instance=ExtResource( 2 )]
+margin_bottom = 30.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult2" parent="VBoxContainer1" instance=ExtResource( 2 )]
+margin_top = 30.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult3" parent="VBoxContainer1" instance=ExtResource( 2 )]
+margin_top = 60.0
+margin_bottom = 90.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult4" parent="VBoxContainer1" instance=ExtResource( 2 )]
+margin_top = 90.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult5" parent="VBoxContainer1" instance=ExtResource( 2 )]
+margin_top = 120.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+margin_left = 144.0
+margin_right = 288.0
+margin_bottom = 226.0
+rect_min_size = Vector2( 144, 0 )
+custom_constants/separation = 0
+
+[node name="GuessResult" parent="VBoxContainer2" instance=ExtResource( 2 )]
+margin_bottom = 30.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult2" parent="VBoxContainer2" instance=ExtResource( 2 )]
+margin_top = 30.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult3" parent="VBoxContainer2" instance=ExtResource( 2 )]
+margin_top = 60.0
+margin_bottom = 90.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult4" parent="VBoxContainer2" instance=ExtResource( 2 )]
+margin_top = 90.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
+
+[node name="GuessResult5" parent="VBoxContainer2" instance=ExtResource( 2 )]
+margin_top = 120.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 144, 30 )
+size_flags_stretch_ratio = 0.0
